@@ -1,0 +1,956 @@
+{
+  "generatedOn": "2026-03-25T11:28:26Z",
+  "reportTitle": "Agent 3 Team Verification Dashboard",
+  "decisionRules": {
+    "approved": "document_valid && salary_valid",
+    "rejected": "definitive invalid outcome with no resolution path",
+    "needsReview": "clarification required before approval"
+  },
+  "employees": [
+    {
+      "employeeId": "EMP1001",
+      "employeeName": "Aarav Mehta",
+      "designation": "Operations Analyst",
+      "documentValid": true,
+      "salaryValid": true,
+      "overallStatus": "APPROVED",
+      "recommendation": "Proceed with verification sign-off. Variation is within approved tolerance.",
+      "latestPayDate": "2026-03-31",
+      "latestIncomeAed": 8357.86,
+      "maxVariationPercent": 2.89,
+      "sourceFiles": [
+        "EMP1001_January_2026.pdf",
+        "EMP1001_February_2026.pdf",
+        "EMP1001_March_2026.pdf"
+      ],
+      "incomeTimeline": [
+        {
+          "date": "2026-01-31",
+          "month": "January 2026",
+          "incomeAed": 8123.11
+        },
+        {
+          "date": "2026-02-28",
+          "month": "February 2026",
+          "incomeAed": 8165.01
+        },
+        {
+          "date": "2026-03-31",
+          "month": "March 2026",
+          "incomeAed": 8357.86
+        }
+      ],
+      "variationAnalysis": [
+        {
+          "period": "Slip 1\u21922",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-02-28",
+          "absoluteAed": 41.9,
+          "percent": 0.52
+        },
+        {
+          "period": "Slip 2\u21923",
+          "fromDate": "2026-02-28",
+          "toDate": "2026-03-31",
+          "absoluteAed": 192.85,
+          "percent": 2.36
+        },
+        {
+          "period": "Overall",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-03-31",
+          "absoluteAed": 234.75,
+          "percent": 2.89
+        }
+      ],
+      "validationReasoning": [
+        "Max absolute salary change is 2.89% across available slips.",
+        "Applied threshold policy: <20% approve, 20-40% review, >=40% reject.",
+        "No CSV currency mismatch detected (manifest in AED)."
+      ],
+      "employeeSummaryPath": "#/employee/EMP1001"
+    },
+    {
+      "employeeId": "EMP1002",
+      "employeeName": "Fatima Al Mansoori",
+      "designation": "HR Coordinator",
+      "documentValid": true,
+      "salaryValid": true,
+      "overallStatus": "APPROVED",
+      "recommendation": "Proceed with verification sign-off. Variation is within approved tolerance.",
+      "latestPayDate": "2026-03-31",
+      "latestIncomeAed": 13386.31,
+      "maxVariationPercent": 3.47,
+      "sourceFiles": [
+        "EMP1002_January_2026.pdf",
+        "EMP1002_February_2026.pdf",
+        "EMP1002_March_2026.pdf"
+      ],
+      "incomeTimeline": [
+        {
+          "date": "2026-01-31",
+          "month": "January 2026",
+          "incomeAed": 12995.96
+        },
+        {
+          "date": "2026-02-28",
+          "month": "February 2026",
+          "incomeAed": 12937.1
+        },
+        {
+          "date": "2026-03-31",
+          "month": "March 2026",
+          "incomeAed": 13386.31
+        }
+      ],
+      "variationAnalysis": [
+        {
+          "period": "Slip 1\u21922",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-02-28",
+          "absoluteAed": -58.86,
+          "percent": -0.45
+        },
+        {
+          "period": "Slip 2\u21923",
+          "fromDate": "2026-02-28",
+          "toDate": "2026-03-31",
+          "absoluteAed": 449.21,
+          "percent": 3.47
+        },
+        {
+          "period": "Overall",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-03-31",
+          "absoluteAed": 390.35,
+          "percent": 3.0
+        }
+      ],
+      "validationReasoning": [
+        "Max absolute salary change is 3.47% across available slips.",
+        "Applied threshold policy: <20% approve, 20-40% review, >=40% reject.",
+        "No CSV currency mismatch detected (manifest in AED)."
+      ],
+      "employeeSummaryPath": "#/employee/EMP1002"
+    },
+    {
+      "employeeId": "EMP1003",
+      "employeeName": "Rohan Nair",
+      "designation": "Finance Executive",
+      "documentValid": true,
+      "salaryValid": true,
+      "overallStatus": "APPROVED",
+      "recommendation": "Proceed with verification sign-off. Variation is within approved tolerance.",
+      "latestPayDate": "2026-03-31",
+      "latestIncomeAed": 14414.93,
+      "maxVariationPercent": 2.2,
+      "sourceFiles": [
+        "EMP1003_January_2026.pdf",
+        "EMP1003_February_2026.pdf",
+        "EMP1003_March_2026.pdf"
+      ],
+      "incomeTimeline": [
+        {
+          "date": "2026-01-31",
+          "month": "January 2026",
+          "incomeAed": 14182.16
+        },
+        {
+          "date": "2026-02-28",
+          "month": "February 2026",
+          "incomeAed": 14105.27
+        },
+        {
+          "date": "2026-03-31",
+          "month": "March 2026",
+          "incomeAed": 14414.93
+        }
+      ],
+      "variationAnalysis": [
+        {
+          "period": "Slip 1\u21922",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-02-28",
+          "absoluteAed": -76.89,
+          "percent": -0.54
+        },
+        {
+          "period": "Slip 2\u21923",
+          "fromDate": "2026-02-28",
+          "toDate": "2026-03-31",
+          "absoluteAed": 309.66,
+          "percent": 2.2
+        },
+        {
+          "period": "Overall",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-03-31",
+          "absoluteAed": 232.77,
+          "percent": 1.64
+        }
+      ],
+      "validationReasoning": [
+        "Max absolute salary change is 2.20% across available slips.",
+        "Applied threshold policy: <20% approve, 20-40% review, >=40% reject.",
+        "No CSV currency mismatch detected (manifest in AED)."
+      ],
+      "employeeSummaryPath": "#/employee/EMP1003"
+    },
+    {
+      "employeeId": "EMP1004",
+      "employeeName": "Zainab Khan",
+      "designation": "Marketing Specialist",
+      "documentValid": true,
+      "salaryValid": true,
+      "overallStatus": "APPROVED",
+      "recommendation": "Proceed with verification sign-off. Variation is within approved tolerance.",
+      "latestPayDate": "2026-03-31",
+      "latestIncomeAed": 11958.15,
+      "maxVariationPercent": 0.99,
+      "sourceFiles": [
+        "EMP1004_January_2026.pdf",
+        "EMP1004_February_2026.pdf",
+        "EMP1004_March_2026.pdf"
+      ],
+      "incomeTimeline": [
+        {
+          "date": "2026-01-31",
+          "month": "January 2026",
+          "incomeAed": 11950.72
+        },
+        {
+          "date": "2026-02-28",
+          "month": "February 2026",
+          "incomeAed": 12068.69
+        },
+        {
+          "date": "2026-03-31",
+          "month": "March 2026",
+          "incomeAed": 11958.15
+        }
+      ],
+      "variationAnalysis": [
+        {
+          "period": "Slip 1\u21922",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-02-28",
+          "absoluteAed": 117.97,
+          "percent": 0.99
+        },
+        {
+          "period": "Slip 2\u21923",
+          "fromDate": "2026-02-28",
+          "toDate": "2026-03-31",
+          "absoluteAed": -110.54,
+          "percent": -0.92
+        },
+        {
+          "period": "Overall",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-03-31",
+          "absoluteAed": 7.43,
+          "percent": 0.06
+        }
+      ],
+      "validationReasoning": [
+        "Max absolute salary change is 0.99% across available slips.",
+        "Applied threshold policy: <20% approve, 20-40% review, >=40% reject.",
+        "No CSV currency mismatch detected (manifest in AED)."
+      ],
+      "employeeSummaryPath": "#/employee/EMP1004"
+    },
+    {
+      "employeeId": "EMP1005",
+      "employeeName": "Omar Haddad",
+      "designation": "Procurement Officer",
+      "documentValid": true,
+      "salaryValid": true,
+      "overallStatus": "APPROVED",
+      "recommendation": "Proceed with verification sign-off. Variation is within approved tolerance.",
+      "latestPayDate": "2026-03-31",
+      "latestIncomeAed": 17595.62,
+      "maxVariationPercent": 2.33,
+      "sourceFiles": [
+        "EMP1005_January_2026.pdf",
+        "EMP1005_February_2026.pdf",
+        "EMP1005_March_2026.pdf"
+      ],
+      "incomeTimeline": [
+        {
+          "date": "2026-01-31",
+          "month": "January 2026",
+          "incomeAed": 17749.82
+        },
+        {
+          "date": "2026-02-28",
+          "month": "February 2026",
+          "incomeAed": 18016.14
+        },
+        {
+          "date": "2026-03-31",
+          "month": "March 2026",
+          "incomeAed": 17595.62
+        }
+      ],
+      "variationAnalysis": [
+        {
+          "period": "Slip 1\u21922",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-02-28",
+          "absoluteAed": 266.32,
+          "percent": 1.5
+        },
+        {
+          "period": "Slip 2\u21923",
+          "fromDate": "2026-02-28",
+          "toDate": "2026-03-31",
+          "absoluteAed": -420.52,
+          "percent": -2.33
+        },
+        {
+          "period": "Overall",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-03-31",
+          "absoluteAed": -154.2,
+          "percent": -0.87
+        }
+      ],
+      "validationReasoning": [
+        "Max absolute salary change is 2.33% across available slips.",
+        "Applied threshold policy: <20% approve, 20-40% review, >=40% reject.",
+        "No CSV currency mismatch detected (manifest in AED)."
+      ],
+      "employeeSummaryPath": "#/employee/EMP1005"
+    },
+    {
+      "employeeId": "EMP1006",
+      "employeeName": "Nisha Patel",
+      "designation": "Admin Assistant",
+      "documentValid": true,
+      "salaryValid": true,
+      "overallStatus": "APPROVED",
+      "recommendation": "Proceed with verification sign-off. Variation is within approved tolerance.",
+      "latestPayDate": "2026-03-31",
+      "latestIncomeAed": 8873.73,
+      "maxVariationPercent": 4.91,
+      "sourceFiles": [
+        "EMP1006_January_2026.pdf",
+        "EMP1006_February_2026.pdf",
+        "EMP1006_March_2026.pdf"
+      ],
+      "incomeTimeline": [
+        {
+          "date": "2026-01-31",
+          "month": "January 2026",
+          "incomeAed": 8777.33
+        },
+        {
+          "date": "2026-02-28",
+          "month": "February 2026",
+          "incomeAed": 9207.89
+        },
+        {
+          "date": "2026-03-31",
+          "month": "March 2026",
+          "incomeAed": 8873.73
+        }
+      ],
+      "variationAnalysis": [
+        {
+          "period": "Slip 1\u21922",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-02-28",
+          "absoluteAed": 430.56,
+          "percent": 4.91
+        },
+        {
+          "period": "Slip 2\u21923",
+          "fromDate": "2026-02-28",
+          "toDate": "2026-03-31",
+          "absoluteAed": -334.16,
+          "percent": -3.63
+        },
+        {
+          "period": "Overall",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-03-31",
+          "absoluteAed": 96.4,
+          "percent": 1.1
+        }
+      ],
+      "validationReasoning": [
+        "Max absolute salary change is 4.91% across available slips.",
+        "Applied threshold policy: <20% approve, 20-40% review, >=40% reject.",
+        "No CSV currency mismatch detected (manifest in AED)."
+      ],
+      "employeeSummaryPath": "#/employee/EMP1006"
+    },
+    {
+      "employeeId": "EMP1007",
+      "employeeName": "Yusuf Rahman",
+      "designation": "Sales Executive",
+      "documentValid": true,
+      "salaryValid": true,
+      "overallStatus": "APPROVED",
+      "recommendation": "Proceed with verification sign-off. Variation is within approved tolerance.",
+      "latestPayDate": "2026-03-31",
+      "latestIncomeAed": 12125.63,
+      "maxVariationPercent": 5.67,
+      "sourceFiles": [
+        "EMP1007_January_2026.pdf",
+        "EMP1007_February_2026.pdf",
+        "EMP1007_March_2026.pdf"
+      ],
+      "incomeTimeline": [
+        {
+          "date": "2026-01-31",
+          "month": "January 2026",
+          "incomeAed": 12786.76
+        },
+        {
+          "date": "2026-02-28",
+          "month": "February 2026",
+          "incomeAed": 12062.31
+        },
+        {
+          "date": "2026-03-31",
+          "month": "March 2026",
+          "incomeAed": 12125.63
+        }
+      ],
+      "variationAnalysis": [
+        {
+          "period": "Slip 1\u21922",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-02-28",
+          "absoluteAed": -724.45,
+          "percent": -5.67
+        },
+        {
+          "period": "Slip 2\u21923",
+          "fromDate": "2026-02-28",
+          "toDate": "2026-03-31",
+          "absoluteAed": 63.32,
+          "percent": 0.52
+        },
+        {
+          "period": "Overall",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-03-31",
+          "absoluteAed": -661.13,
+          "percent": -5.17
+        }
+      ],
+      "validationReasoning": [
+        "Max absolute salary change is 5.67% across available slips.",
+        "Applied threshold policy: <20% approve, 20-40% review, >=40% reject.",
+        "No CSV currency mismatch detected (manifest in AED)."
+      ],
+      "employeeSummaryPath": "#/employee/EMP1007"
+    },
+    {
+      "employeeId": "EMP1008",
+      "employeeName": "Mariam Saeed",
+      "designation": "Customer Success Lead",
+      "documentValid": true,
+      "salaryValid": true,
+      "overallStatus": "APPROVED",
+      "recommendation": "Proceed with verification sign-off. Variation is within approved tolerance.",
+      "latestPayDate": "2026-03-31",
+      "latestIncomeAed": 10572.55,
+      "maxVariationPercent": 10.99,
+      "sourceFiles": [
+        "EMP1008_January_2026.pdf",
+        "EMP1008_February_2026.pdf",
+        "EMP1008_March_2026.pdf"
+      ],
+      "incomeTimeline": [
+        {
+          "date": "2026-01-31",
+          "month": "January 2026",
+          "incomeAed": 9525.34
+        },
+        {
+          "date": "2026-02-28",
+          "month": "February 2026",
+          "incomeAed": 9954.22
+        },
+        {
+          "date": "2026-03-31",
+          "month": "March 2026",
+          "incomeAed": 10572.55
+        }
+      ],
+      "variationAnalysis": [
+        {
+          "period": "Slip 1\u21922",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-02-28",
+          "absoluteAed": 428.88,
+          "percent": 4.5
+        },
+        {
+          "period": "Slip 2\u21923",
+          "fromDate": "2026-02-28",
+          "toDate": "2026-03-31",
+          "absoluteAed": 618.33,
+          "percent": 6.21
+        },
+        {
+          "period": "Overall",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-03-31",
+          "absoluteAed": 1047.21,
+          "percent": 10.99
+        }
+      ],
+      "validationReasoning": [
+        "Max absolute salary change is 10.99% across available slips.",
+        "Applied threshold policy: <20% approve, 20-40% review, >=40% reject.",
+        "No CSV currency mismatch detected (manifest in AED)."
+      ],
+      "employeeSummaryPath": "#/employee/EMP1008"
+    },
+    {
+      "employeeId": "EMP1009",
+      "employeeName": "Vikram Desai",
+      "designation": "Data Analyst",
+      "documentValid": true,
+      "salaryValid": true,
+      "overallStatus": "APPROVED",
+      "recommendation": "Proceed with verification sign-off. Variation is within approved tolerance.",
+      "latestPayDate": "2026-03-31",
+      "latestIncomeAed": 11318.83,
+      "maxVariationPercent": 2.53,
+      "sourceFiles": [
+        "EMP1009_January_2026.pdf",
+        "EMP1009_February_2026.pdf",
+        "EMP1009_March_2026.pdf"
+      ],
+      "incomeTimeline": [
+        {
+          "date": "2026-01-31",
+          "month": "January 2026",
+          "incomeAed": 11040.0
+        },
+        {
+          "date": "2026-02-28",
+          "month": "February 2026",
+          "incomeAed": 11221.53
+        },
+        {
+          "date": "2026-03-31",
+          "month": "March 2026",
+          "incomeAed": 11318.83
+        }
+      ],
+      "variationAnalysis": [
+        {
+          "period": "Slip 1\u21922",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-02-28",
+          "absoluteAed": 181.53,
+          "percent": 1.64
+        },
+        {
+          "period": "Slip 2\u21923",
+          "fromDate": "2026-02-28",
+          "toDate": "2026-03-31",
+          "absoluteAed": 97.3,
+          "percent": 0.87
+        },
+        {
+          "period": "Overall",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-03-31",
+          "absoluteAed": 278.83,
+          "percent": 2.53
+        }
+      ],
+      "validationReasoning": [
+        "Max absolute salary change is 2.53% across available slips.",
+        "Applied threshold policy: <20% approve, 20-40% review, >=40% reject.",
+        "No CSV currency mismatch detected (manifest in AED)."
+      ],
+      "employeeSummaryPath": "#/employee/EMP1009"
+    },
+    {
+      "employeeId": "EMP1010",
+      "employeeName": "Huda Al Falasi",
+      "designation": "Compliance Officer",
+      "documentValid": true,
+      "salaryValid": true,
+      "overallStatus": "APPROVED",
+      "recommendation": "Proceed with verification sign-off. Variation is within approved tolerance.",
+      "latestPayDate": "2026-03-31",
+      "latestIncomeAed": 11257.06,
+      "maxVariationPercent": 5.02,
+      "sourceFiles": [
+        "EMP1010_January_2026.pdf",
+        "EMP1010_February_2026.pdf",
+        "EMP1010_March_2026.pdf"
+      ],
+      "incomeTimeline": [
+        {
+          "date": "2026-01-31",
+          "month": "January 2026",
+          "incomeAed": 10719.44
+        },
+        {
+          "date": "2026-02-28",
+          "month": "February 2026",
+          "incomeAed": 11257.49
+        },
+        {
+          "date": "2026-03-31",
+          "month": "March 2026",
+          "incomeAed": 11257.06
+        }
+      ],
+      "variationAnalysis": [
+        {
+          "period": "Slip 1\u21922",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-02-28",
+          "absoluteAed": 538.05,
+          "percent": 5.02
+        },
+        {
+          "period": "Slip 2\u21923",
+          "fromDate": "2026-02-28",
+          "toDate": "2026-03-31",
+          "absoluteAed": -0.43,
+          "percent": -0.0
+        },
+        {
+          "period": "Overall",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-03-31",
+          "absoluteAed": 537.62,
+          "percent": 5.02
+        }
+      ],
+      "validationReasoning": [
+        "Max absolute salary change is 5.02% across available slips.",
+        "Applied threshold policy: <20% approve, 20-40% review, >=40% reject.",
+        "No CSV currency mismatch detected (manifest in AED)."
+      ],
+      "employeeSummaryPath": "#/employee/EMP1010"
+    },
+    {
+      "employeeId": "EMP1011",
+      "employeeName": "Karan Bhatia",
+      "designation": "Project Coordinator",
+      "documentValid": true,
+      "salaryValid": true,
+      "overallStatus": "APPROVED",
+      "recommendation": "Proceed with verification sign-off. Variation is within approved tolerance.",
+      "latestPayDate": "2026-03-31",
+      "latestIncomeAed": 8706.21,
+      "maxVariationPercent": 2.51,
+      "sourceFiles": [
+        "EMP1011_January_2026.pdf",
+        "EMP1011_February_2026.pdf",
+        "EMP1011_March_2026.pdf"
+      ],
+      "incomeTimeline": [
+        {
+          "date": "2026-01-31",
+          "month": "January 2026",
+          "incomeAed": 8929.94
+        },
+        {
+          "date": "2026-02-28",
+          "month": "February 2026",
+          "incomeAed": 8735.45
+        },
+        {
+          "date": "2026-03-31",
+          "month": "March 2026",
+          "incomeAed": 8706.21
+        }
+      ],
+      "variationAnalysis": [
+        {
+          "period": "Slip 1\u21922",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-02-28",
+          "absoluteAed": -194.49,
+          "percent": -2.18
+        },
+        {
+          "period": "Slip 2\u21923",
+          "fromDate": "2026-02-28",
+          "toDate": "2026-03-31",
+          "absoluteAed": -29.24,
+          "percent": -0.33
+        },
+        {
+          "period": "Overall",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-03-31",
+          "absoluteAed": -223.73,
+          "percent": -2.51
+        }
+      ],
+      "validationReasoning": [
+        "Max absolute salary change is 2.51% across available slips.",
+        "Applied threshold policy: <20% approve, 20-40% review, >=40% reject.",
+        "No CSV currency mismatch detected (manifest in AED)."
+      ],
+      "employeeSummaryPath": "#/employee/EMP1011"
+    },
+    {
+      "employeeId": "EMP1012",
+      "employeeName": "Noor Abdullah",
+      "designation": "Payroll Assistant",
+      "documentValid": true,
+      "salaryValid": true,
+      "overallStatus": "APPROVED",
+      "recommendation": "Proceed with verification sign-off. Variation is within approved tolerance.",
+      "latestPayDate": "2026-03-31",
+      "latestIncomeAed": 16613.45,
+      "maxVariationPercent": 0.87,
+      "sourceFiles": [
+        "EMP1012_January_2026.pdf",
+        "EMP1012_February_2026.pdf",
+        "EMP1012_March_2026.pdf"
+      ],
+      "incomeTimeline": [
+        {
+          "date": "2026-01-31",
+          "month": "January 2026",
+          "incomeAed": 16489.1
+        },
+        {
+          "date": "2026-02-28",
+          "month": "February 2026",
+          "incomeAed": 16631.84
+        },
+        {
+          "date": "2026-03-31",
+          "month": "March 2026",
+          "incomeAed": 16613.45
+        }
+      ],
+      "variationAnalysis": [
+        {
+          "period": "Slip 1\u21922",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-02-28",
+          "absoluteAed": 142.74,
+          "percent": 0.87
+        },
+        {
+          "period": "Slip 2\u21923",
+          "fromDate": "2026-02-28",
+          "toDate": "2026-03-31",
+          "absoluteAed": -18.39,
+          "percent": -0.11
+        },
+        {
+          "period": "Overall",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-03-31",
+          "absoluteAed": 124.35,
+          "percent": 0.75
+        }
+      ],
+      "validationReasoning": [
+        "Max absolute salary change is 0.87% across available slips.",
+        "Applied threshold policy: <20% approve, 20-40% review, >=40% reject.",
+        "No CSV currency mismatch detected (manifest in AED)."
+      ],
+      "employeeSummaryPath": "#/employee/EMP1012"
+    },
+    {
+      "employeeId": "EMP1013",
+      "employeeName": "Aditya Sharma",
+      "designation": "IT Support Engineer",
+      "documentValid": true,
+      "salaryValid": true,
+      "overallStatus": "APPROVED",
+      "recommendation": "Proceed with verification sign-off. Variation is within approved tolerance.",
+      "latestPayDate": "2026-03-31",
+      "latestIncomeAed": 12380.28,
+      "maxVariationPercent": 1.35,
+      "sourceFiles": [
+        "EMP1013_January_2026.pdf",
+        "EMP1013_February_2026.pdf",
+        "EMP1013_March_2026.pdf"
+      ],
+      "incomeTimeline": [
+        {
+          "date": "2026-01-31",
+          "month": "January 2026",
+          "incomeAed": 12372.01
+        },
+        {
+          "date": "2026-02-28",
+          "month": "February 2026",
+          "incomeAed": 12215.32
+        },
+        {
+          "date": "2026-03-31",
+          "month": "March 2026",
+          "incomeAed": 12380.28
+        }
+      ],
+      "variationAnalysis": [
+        {
+          "period": "Slip 1\u21922",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-02-28",
+          "absoluteAed": -156.69,
+          "percent": -1.27
+        },
+        {
+          "period": "Slip 2\u21923",
+          "fromDate": "2026-02-28",
+          "toDate": "2026-03-31",
+          "absoluteAed": 164.96,
+          "percent": 1.35
+        },
+        {
+          "period": "Overall",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-03-31",
+          "absoluteAed": 8.27,
+          "percent": 0.07
+        }
+      ],
+      "validationReasoning": [
+        "Max absolute salary change is 1.35% across available slips.",
+        "Applied threshold policy: <20% approve, 20-40% review, >=40% reject.",
+        "No CSV currency mismatch detected (manifest in AED)."
+      ],
+      "employeeSummaryPath": "#/employee/EMP1013"
+    },
+    {
+      "employeeId": "EMP1014",
+      "employeeName": "Leila Hassan",
+      "designation": "Business Development Executive",
+      "documentValid": true,
+      "salaryValid": true,
+      "overallStatus": "APPROVED",
+      "recommendation": "Proceed with verification sign-off. Variation is within approved tolerance.",
+      "latestPayDate": "2026-03-31",
+      "latestIncomeAed": 7462.83,
+      "maxVariationPercent": 5.5,
+      "sourceFiles": [
+        "EMP1014_January_2026.pdf",
+        "EMP1014_February_2026.pdf",
+        "EMP1014_March_2026.pdf"
+      ],
+      "incomeTimeline": [
+        {
+          "date": "2026-01-31",
+          "month": "January 2026",
+          "incomeAed": 7255.12
+        },
+        {
+          "date": "2026-02-28",
+          "month": "February 2026",
+          "incomeAed": 7654.2
+        },
+        {
+          "date": "2026-03-31",
+          "month": "March 2026",
+          "incomeAed": 7462.83
+        }
+      ],
+      "variationAnalysis": [
+        {
+          "period": "Slip 1\u21922",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-02-28",
+          "absoluteAed": 399.08,
+          "percent": 5.5
+        },
+        {
+          "period": "Slip 2\u21923",
+          "fromDate": "2026-02-28",
+          "toDate": "2026-03-31",
+          "absoluteAed": -191.37,
+          "percent": -2.5
+        },
+        {
+          "period": "Overall",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-03-31",
+          "absoluteAed": 207.71,
+          "percent": 2.86
+        }
+      ],
+      "validationReasoning": [
+        "Max absolute salary change is 5.50% across available slips.",
+        "Applied threshold policy: <20% approve, 20-40% review, >=40% reject.",
+        "No CSV currency mismatch detected (manifest in AED)."
+      ],
+      "employeeSummaryPath": "#/employee/EMP1014"
+    },
+    {
+      "employeeId": "EMP1015",
+      "employeeName": "Sameer Iqbal",
+      "designation": "Logistics Planner",
+      "documentValid": true,
+      "salaryValid": true,
+      "overallStatus": "APPROVED",
+      "recommendation": "Proceed with verification sign-off. Variation is within approved tolerance.",
+      "latestPayDate": "2026-03-31",
+      "latestIncomeAed": 10386.59,
+      "maxVariationPercent": 5.89,
+      "sourceFiles": [
+        "EMP1015_January_2026.pdf",
+        "EMP1015_February_2026.pdf",
+        "EMP1015_March_2026.pdf"
+      ],
+      "incomeTimeline": [
+        {
+          "date": "2026-01-31",
+          "month": "January 2026",
+          "incomeAed": 11037.04
+        },
+        {
+          "date": "2026-02-28",
+          "month": "February 2026",
+          "incomeAed": 10500.86
+        },
+        {
+          "date": "2026-03-31",
+          "month": "March 2026",
+          "incomeAed": 10386.59
+        }
+      ],
+      "variationAnalysis": [
+        {
+          "period": "Slip 1\u21922",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-02-28",
+          "absoluteAed": -536.18,
+          "percent": -4.86
+        },
+        {
+          "period": "Slip 2\u21923",
+          "fromDate": "2026-02-28",
+          "toDate": "2026-03-31",
+          "absoluteAed": -114.27,
+          "percent": -1.09
+        },
+        {
+          "period": "Overall",
+          "fromDate": "2026-01-31",
+          "toDate": "2026-03-31",
+          "absoluteAed": -650.45,
+          "percent": -5.89
+        }
+      ],
+      "validationReasoning": [
+        "Max absolute salary change is 5.89% across available slips.",
+        "Applied threshold policy: <20% approve, 20-40% review, >=40% reject.",
+        "No CSV currency mismatch detected (manifest in AED)."
+      ],
+      "employeeSummaryPath": "#/employee/EMP1015"
+    }
+  ]
+}
