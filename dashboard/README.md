@@ -6,6 +6,8 @@ Single-page React dashboard that summarizes Agent 3 verification outcomes for th
 
 This project follows a Foundry-style multi-agent orchestration pattern with explicit stage contracts and deterministic handoff artifacts.
 
+![Animated agent flow diagram](./assets/agent-flow.gif)
+
 ### Stage 0: Workflow Trigger
 
 1. Input payload is a salary slip document (Markdown or JSON).
