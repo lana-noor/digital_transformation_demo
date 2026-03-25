@@ -6,7 +6,21 @@ Single-page React dashboard that summarizes Agent 3 verification outcomes for th
 
 This project follows a Foundry-style multi-agent orchestration pattern with explicit stage contracts and deterministic handoff artifacts.
 
-![Animated agent flow diagram](./assets/agent-flow.gif)
+```mermaid
+flowchart TD
+    A[Stage 0: Workflow Trigger<br/>Input slip + env load + client init]
+    B[Stage 1: Agent 1<br/>Document Verification]
+    C[Stage 2: Agent 2<br/>Salary Analysis with Code Interpreter]
+    D[Stage 3: Agent 3<br/>Summary Generation]
+    E[Stage 4: Executor<br/>Persist Markdown and generate DOCX]
+    F[Stage 5: Team Dashboard<br/>Projection JSON and employee drill-down]
+
+    A -->|salary slip input| B
+    B -->|verification JSON + employee name| C
+    C -->|analysis JSON| D
+    D -->|final markdown report| E
+    E -->|artifacts + summary data| F
+```
 
 ### Stage 0: Workflow Trigger
 
